@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body
 {
     color: blue;
@@ -6,6 +11,27 @@ body
     font-size: 16px;
     margin: 0;
     padding: 0;
+}
+
+/*.fig {
+    display: inline-block;
+    max-width: 65ch;
+    width: 100%;
+    position: relative;
+}*/
+
+/*.image {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    grid-column: 1/4;
+}*/
+
+.post {
+    display: grid;
+    grid-template-columns: 1fr;
+    min(65ch, 100%)
+    1fr;
 }
 
 #cabecera
@@ -43,3 +69,4 @@ body
 {
     padding: 1em;
 }
+
