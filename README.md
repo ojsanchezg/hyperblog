@@ -1,4 +1,4 @@
-#Hyperblog
+# Hyperblog
 Un blog de práctica para aprender el manejo de git y gitHub, con Platzi.
 
 En esta práctica vimos:
