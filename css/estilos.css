@@ -27,12 +27,11 @@ body
     grid-column: 1/4;
 }*/
 
-.post {
+/*.post {
     display: grid;
     grid-template-columns: 1fr;
-    min(65ch, 100%)
-    1fr;
-}
+    min(65ch, 100%) 1fr;
+}*/
 
 #cabecera
 {
@@ -42,6 +41,7 @@ body
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
+    font-size: 1.2em;
 }
 
 #cabecera #tagline
@@ -70,3 +70,14 @@ body
     padding: 1em;
 }
 
+.footer
+{
+    background-color: #33A;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+#fecha{
+    font-size: 0.8em;
+}
